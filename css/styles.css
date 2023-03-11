@@ -30,8 +30,9 @@ body {
 .nav{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 1.1em;
-  outline: 1px solid purple;
+  
   --padding-container:40px 0 ;
 }
 
@@ -42,4 +43,14 @@ body {
 .nav__img {
   width: 100%;
   display: block;
+}
+
+.nav__link:first-of-type {
+  margin-left: auto;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--desaturated-blue);
+  
 }
