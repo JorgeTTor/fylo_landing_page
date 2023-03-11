@@ -38,6 +38,7 @@ body {
 
 .nav__logo {
   width: 110px;
+  padding-top: 20px;
 }
 
 .nav__img {
@@ -68,17 +69,16 @@ body {
 
 .hero__info {
   text-align: center;
-
+  color: var(--very-dark-blue);
 }
 
 .hero__title {
   font-size: 1.7rem;
-  color: var(--very-dark-blue);
   font-family: var(--font2);
   margin: 1.8em;
 }
 
 .hero__paragraph{
   line-height: 1.5;
-  margin: 1.5em;
+  margin: 1.5em 0;
 }
