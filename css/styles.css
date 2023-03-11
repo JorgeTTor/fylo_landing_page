@@ -82,3 +82,13 @@ body {
   line-height: 1.5;
   margin: 1.5em 0;
 }
+
+.hero__input {
+  height: 45px;
+  border-radius: 6px;
+  width: 100%;
+  font: inherit;
+  border: 1px solid var(--very-dark-blue);
+  padding: 0 20px;
+  font-family: var(--font2);
+}
