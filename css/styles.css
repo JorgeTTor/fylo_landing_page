@@ -52,5 +52,33 @@ body {
 .nav__link {
   text-decoration: none;
   color: var(--desaturated-blue);
-  
+
+}
+
+.hero {
+  /* position: relative; */
+}
+
+.hero__img {
+  width: 100%;
+  display: block;
+  max-width:400px;
+  margin: 0 auto;
+}
+
+.hero__info {
+  text-align: center;
+
+}
+
+.hero__title {
+  font-size: 1.7rem;
+  color: var(--very-dark-blue);
+  font-family: var(--font2);
+  margin: 1.8em;
+}
+
+.hero__paragraph{
+  line-height: 1.5;
+  margin: 1.5em;
 }
