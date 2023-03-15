@@ -57,7 +57,7 @@ body {
 
 .hero {
   position: relative;
-  padding: 90px 0 120px 0;
+  padding: 20px 0 150px 0 ;
 }
 
 .hero::before {
@@ -290,4 +290,78 @@ body {
   border-radius: 50%;
   text-decoration: none;
   display: flex;
+}
+
+.footer__img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+
+@media (min-width: 768px){
+
+.hero {
+  position: relative;
+  padding: 20px 0 150px 0 ;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("/images/bg-curve-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+} 
+
+.hero__img {
+  width: 100%;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.hero__info {
+  text-align: center;
+  color: var(--very-dark-blue);
+  margin: 90px 20px;
+}
+
+.hero__title {
+  font-size: 1.7rem;
+  font-family: var(--font2);
+  margin-top: 1.8em;
+}
+
+.hero__paragraph{
+  line-height: 1.5;
+  margin: 1.5em 0;
+
+}
+
+.hero__input {
+  height: 45px;
+  border-radius: 6px;
+  width: 100%;
+  font: inherit;
+  border: 1px solid var(--very-dark-blue);
+  padding: 0 20px;
+  font-family: var(--font2);
+}
+
+.hero__input--cta {
+  background-color: var(--bright-blue);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  margin-top: 1.2em;
+}
+
+
+
 }
