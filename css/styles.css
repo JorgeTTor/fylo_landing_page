@@ -165,3 +165,14 @@ body {
 .productive__arrow {
   vertical-align: middle;
 }
+
+.productive__testimony {
+  width: 95%;
+  max-width: 350px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2em 1.5em;
+  border-radius: 1em;
+  box-shadow: 0 0 10px -5px rgb(0, 0, 0, 0.5);
+}
+
