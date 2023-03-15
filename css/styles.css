@@ -133,3 +133,28 @@ body {
 .productive__main {
   margin-top: 6em;
 }
+
+.productive__title {
+  font-size: 1.1rem;
+  text-align: center;
+  color: var(--very-dark-blue);
+  font: var(--font2);
+}
+
+.productive__paragraph {
+  color: var(--desaturated-blue);
+  line-height: 1.5 ;
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.productive__paragraph:last-of-type{
+  margin: 0;
+}
+
+.productive__cta {
+  display: block;
+  width: max-content;
+  margin: 2em auto 3em;
+  text-decoration: none;
+}
