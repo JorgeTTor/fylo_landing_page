@@ -157,4 +157,11 @@ body {
   width: max-content;
   margin: 2em auto 3em;
   text-decoration: none;
+  color: var(--moderat-cyan);
+  border-bottom: 2px solid ;
+  padding-bottom:4px ;
+}
+
+.productive__arrow {
+  vertical-align: middle;
 }
