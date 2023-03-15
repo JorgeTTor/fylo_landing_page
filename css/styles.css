@@ -31,9 +31,8 @@ body {
 .nav{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 1.1em;
-  --padding-container:40px 0 ;
+  --padding-container: 40px 0;
 }
 
 .nav__logo {
@@ -44,6 +43,7 @@ body {
 .nav__img {
   width: 100%;
   display: block;
+ 
 }
 
 .nav__link:first-of-type {
@@ -58,26 +58,27 @@ body {
 
 .hero {
   position: relative;
-  --padding-container: 90px 0 170px;
+  padding: 90px 0 120px 0;
 }
 
 .hero::before {
   content: "";
   position: absolute;
+  left: 0;
+  bottom: 0;
   width: 100%;
   height: 100px;
   background-image: url("/images/bg-curve-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  left: 0;
-  bottom: 0;
-}
+  
+} 
 
 .hero__img {
   width: 100%;
   display: block;
-  max-width:400px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -90,12 +91,13 @@ body {
 .hero__title {
   font-size: 1.7rem;
   font-family: var(--font2);
-  margin: 1.8em;
+  margin-top: 1.8em;
 }
 
 .hero__paragraph{
   line-height: 1.5;
-  margin: 2.5em 0;
+  margin: 1.5em 0;
+
 }
 
 .hero__input {
