@@ -22,11 +22,10 @@ body {
 
 .container{
   width: 90%;
-
   max-width: 1200px;
   overflow: hidden;
   margin: 0 auto;
-  padding-right: var(--padding-container);
+  padding: var(--padding-container);
 }
 
 .nav{
@@ -44,7 +43,6 @@ body {
 .nav__img {
   width: 100%;
   display: block;
- 
 }
 
 .nav__link:first-of-type {
@@ -206,10 +204,6 @@ body {
   text-align: center;
 }
 
-.newsletter__container {
-  height: 400px;
-  padding:2em 0;
-}
 .newsletter__title {
   font-family: var(--font2);
 }
@@ -241,3 +235,19 @@ body {
  color: #fff;
  background-color: var(--bright-blue);
 }
+
+.footer {
+  background-color: var(--very-dark-blue);
+  color: #fff;
+}
+
+.footer__container{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.footer__logo {
+  display: block;
+}
+
