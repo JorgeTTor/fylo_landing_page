@@ -251,3 +251,43 @@ body {
   display: block;
 }
 
+.footer__icon {
+  vertical-align: middle;
+  margin-right: .5em;
+}
+
+.footer__info {
+  font-size: 1.2rem;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.footer__link{
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--font2);
+}
+
+.footer__link:hover{
+  text-decoration: underline;
+}
+
+.footer__social {
+  display: flex;
+  width:max-content;
+  margin: 0 auto;
+  gap: 1.5em;
+}
+
+.footer__media {
+  border: 1px solid #fff;
+  width: 35px;
+  height:  35px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+}
