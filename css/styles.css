@@ -117,3 +117,19 @@ body {
   font-weight: 700;
   margin-top: 1.2em;
 }
+
+.productive {
+  background-color: var(--light-grayish-lue);
+  padding: 30px 0 90px;
+}
+
+.productive_img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.productive__main {
+  margin-top: 6em;
+}
