@@ -22,6 +22,7 @@ body {
 
 .container{
   width: 90%;
+
   max-width: 1200px;
   overflow: hidden;
   margin: 0 auto;
@@ -184,7 +185,6 @@ body {
   margin: .5em 0 1.5em;
   color: var(--very-dark-blue);
   line-height: 1.5;
-
 }
 
 .productive__card {
@@ -206,7 +206,11 @@ body {
   text-align: center;
 }
 
-.newslettr__title {
+.newsletter__container {
+  height: 400px;
+  padding:2em 0;
+}
+.newsletter__title {
   font-family: var(--font2);
 }
 
@@ -224,7 +228,7 @@ body {
   margin-top: 2em;
 }
 
-.newsletter__input , .newsletter__submit {
+.newsletter__input, .newsletter__submit {
   padding: 1em .5em;
   font: inherit;
   font-family: var(--font2);
